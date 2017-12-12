@@ -3,6 +3,7 @@ require_relative '../config/environment'
 require 'rack/test'
 require 'capybara/poltergeist'
 
+
 Capybara.javascript_driver = :poltergeist
 
 RSpec.configure do |config|
